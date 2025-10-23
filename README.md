@@ -1,6 +1,6 @@
-# 🛒 Online Store - Full Stack E-Commerce Platform
+# 🛒 Online Store - Full Stack Platform
 
-A complete full-stack e-commerce platform featuring a modern React frontend with TypeScript and a robust ASP.NET Core 9 backend API, with JWT authentication, role-based authorization, and comprehensive order management.
+A complete full-stack online store platform featuring a modern React frontend with TypeScript and a robust ASP.NET Core 9 backend API, with JWT authentication, role-based authorization, and comprehensive order management.
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat&logo=dotnet)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-13.0-239120?style=flat&logo=c-sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -60,7 +60,7 @@ A complete full-stack e-commerce platform featuring a modern React frontend with
 - Persistent authentication state
 - Automatic token refresh
 
-### 🛍️ **Online-Store Core**
+### 🛍️ **Online Store Core**
 - Product catalog with categories
 - Product images support
 - Advanced product search and filtering
@@ -897,15 +897,6 @@ export default apiClient;
 
 ---
 
-
-
-
-
-
-
-
-
-
 ### **Backend Configuration**
 
 #### **appsettings.json**
@@ -1182,12 +1173,11 @@ Contributions are welcome! Please follow these steps:
 - Write unit tests for new features
 - Update documentation as needed
 
-
 ---
 
 ## 👨‍💻 Author
 
-**Yazen Abu-Sharkh**
+**Yazen Al-Obeidat**
 
 - GitHub: [@YazenJO](https://github.com/YazenJO)
 - Repository: [Online-Store](https://github.com/YazenJO/Online-Store)
@@ -1199,7 +1189,7 @@ Contributions are welcome! Please follow these steps:
 - Built with [ASP.NET Core 9](https://dotnet.microsoft.com/)
 - Authentication powered by [JWT](https://jwt.io/)
 - Password hashing using [BCrypt.Net](https://github.com/BcryptNet/bcrypt.net)
-- Inspired by modern e-commerce platforms
+- Inspired by modern Online Store platforms
 
 ---
 
@@ -1314,6 +1304,6 @@ If you find this project useful, please give it a star! ⭐
 ### 🛠️ Built With
 [React](https://react.dev/) • [TypeScript](https://www.typescriptlang.org/) • [Vite](https://vite.dev/) • [Tailwind CSS](https://tailwindcss.com/) • [ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet) • [SQL Server](https://www.microsoft.com/sql-server)
 
-[⬆ Back to Top](#-online-store---full-stack-e-commerce-platform)
+[⬆ Back to Top](#-online-store---full-stack-platform)
 
 </div>
