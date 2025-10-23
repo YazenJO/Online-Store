@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "OnlineStore.Models/1.0.0": {
+        "runtime": {
+          "OnlineStore.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineStore.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

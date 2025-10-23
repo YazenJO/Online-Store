@@ -1,0 +1,169 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OnlineStore.BLL;
+using OnlineStore.DAL;
+using OnlineStore.Models;
+using System.Collections.Generic;
+
+namespace OnlineStoreAPI.Controllers
+{
+    [ApiController]
+    [Route("api/Customers")]
+    public class CustomersController : ControllerBase
+    {
+        
+        [HttpGet("All", Name = "GetAllCustomers")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<CustomerDTO>> GetAllCustomers()
+        {
+            var customersList = Customer.GetAllCustomers();
+
+            if (customersList == null || customersList.Rows.Count == 0)
+            {
+                return NotFound("No Customers Found!");
+            }
+
+            var dtoList = new List<CustomerDTO>();
+
+            foreach (System.Data.DataRow row in customersList.Rows)
+            {
+                dtoList.Add(new CustomerDTO
+                (
+                    (int?)row["CustomerID"],
+                    (string)row["Name"],
+                    (string)row["Email"],
+                    (string)row["Phone"],
+                    (string)row["Address"],
+                    (string)row["Username"],
+                    (string)row["Password"]
+                ));
+            }
+
+            return Ok(dtoList);
+        }
+
+        [HttpGet("{id}", Name = "GetCustomerById")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<CustomerDTO> GetCustomerById(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            Customer customer = Customer.Find(id);
+
+            if (customer == null)
+            {
+                return NotFound($"Customer with ID {id} not found.");
+            }
+
+            CustomerDTO dto = customer.CustomerDTO;
+
+            return Ok(dto);
+        }
+
+        [HttpPost(Name = "AddCustomer")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<CustomerDTO> AddCustomer(CustomerDTO newCustomerDTO)
+        {
+            if (newCustomerDTO == null || string.IsNullOrEmpty(newCustomerDTO.Name) || string.IsNullOrEmpty(newCustomerDTO.Email) || string.IsNullOrEmpty(newCustomerDTO.Username) || string.IsNullOrEmpty(newCustomerDTO.Password))
+            {
+                return BadRequest("Invalid Customer data.");
+            }
+
+            Customer customer = new Customer(new CustomerDTO
+            (
+                    newCustomerDTO.CustomerID,
+                    newCustomerDTO.Name,
+                    newCustomerDTO.Email,
+                    newCustomerDTO.Phone,
+                    newCustomerDTO.Address,
+                    newCustomerDTO.Username,
+                    newCustomerDTO.Password
+            ));
+
+            if (!customer.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error adding Customer");
+            }
+
+            newCustomerDTO.CustomerID = customer.CustomerID;
+
+            return CreatedAtRoute("GetCustomerById", new { id = newCustomerDTO.CustomerID }, newCustomerDTO);
+        }
+
+        [HttpPut("{id}", Name = "UpdateCustomer")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<CustomerDTO> UpdateCustomer(int id, CustomerDTO updatedCustomer)
+        {
+            if (id < 1 || updatedCustomer == null || string.IsNullOrEmpty(updatedCustomer.Name) || string.IsNullOrEmpty(updatedCustomer.Email) || string.IsNullOrEmpty(updatedCustomer.Username) || string.IsNullOrEmpty(updatedCustomer.Password))
+            {
+                return BadRequest("Invalid Customer data.");
+            }
+
+            Customer customer = Customer.Find(id);
+
+            if (customer == null)
+            {
+                return NotFound($"Customer with ID {id} not found.");
+            }
+
+            customer.Name = updatedCustomer.Name;
+            customer.Email = updatedCustomer.Email;
+            customer.Phone = updatedCustomer.Phone;
+            customer.Address = updatedCustomer.Address;
+            customer.Username = updatedCustomer.Username;
+            customer.Password = updatedCustomer.Password;
+
+            if (!customer.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error updating Customer");
+            }
+
+            return Ok(customer.CustomerDTO);
+        }
+
+        [HttpDelete("{id}", Name = "DeleteCustomer")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult DeleteCustomer(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            if (Customer.DeleteCustomer(id))
+            {
+                return Ok($"Customer with ID {id} has been deleted.");
+            }
+            else
+            {
+                return NotFound($"Customer with ID {id} not found. No rows deleted!");
+            }
+        }
+
+        [HttpGet("Exists/{id}", Name = "DoesCustomerExist")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<bool> DoesCustomerExist(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            bool exists = Customer.DoesCustomerExist(id);
+
+            return Ok(exists);
+        }
+    }
+}

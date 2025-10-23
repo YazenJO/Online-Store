@@ -1,0 +1,103 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OnlineStore.BLL;
+using OnlineStore.DAL;
+using OnlineStore.Models;
+using System.Collections.Generic;
+using System.Security.Claims;
+
+namespace OnlineStoreAPI.Controllers
+{
+    [ApiController]
+    [Route("api")]
+    public class ReviewsControllerV2 : ControllerBase
+    {
+        [HttpGet("products/{productId}/reviews", Name = "GetProductReviews")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public ActionResult<IEnumerable<object>> GetProductReviews(int productId)
+        {
+            var reviewsList = Review.GetReviewsByProductId(productId);
+
+            if (reviewsList == null || reviewsList.Rows.Count == 0)
+            {
+                return Ok(new List<object>()); // Return empty list
+            }
+
+            var result = new List<object>();
+
+            foreach (System.Data.DataRow row in reviewsList.Rows)
+            {
+                var customerId = (int)row["CustomerID"];
+                var customer = Customer.Find(customerId);
+
+                result.Add(new
+                {
+                    reviewID = (int)row["ReviewID"],
+                    productID = (int)row["ProductID"],
+                    customerID = customerId,
+                    reviewText = row["ReviewText"]?.ToString(),
+                    rating = row["Rating"] != DBNull.Value ? (decimal?)row["Rating"] : null,
+                    reviewDate = row["ReviewDate"] != DBNull.Value ? (DateTime?)row["ReviewDate"] : null,
+                    customer = customer != null ? new
+                    {
+                        customerID = customer.CustomerID,
+                        name = customer.Name
+                    } : null
+                });
+            }
+
+            return Ok(result);
+        }
+
+        [Authorize]
+        [HttpPost("reviews", Name = "AddReview")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public ActionResult<object> AddReview([FromBody] ReviewDTO newReviewDTO)
+        {
+            if (newReviewDTO == null || newReviewDTO.ProductID < 1 || newReviewDTO.CustomerID < 1)
+            {
+                return BadRequest(new { message = "Invalid review data" });
+            }
+
+            // Verify the authenticated user matches the customerID in the review
+            var customerIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (customerIdClaim != null && int.TryParse(customerIdClaim.Value, out int authenticatedCustomerId))
+            {
+                if (authenticatedCustomerId != newReviewDTO.CustomerID)
+                {
+                    return Forbid();
+                }
+            }
+
+            Review review = new Review(new ReviewDTO
+            (
+                null,
+                newReviewDTO.ProductID,
+                newReviewDTO.CustomerID,
+                newReviewDTO.ReviewText,
+                newReviewDTO.Rating,
+                DateTime.UtcNow
+            ));
+
+            if (!review.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, 
+                    new { message = "Error adding review" });
+            }
+
+            var result = new
+            {
+                reviewID = review.ReviewID,
+                productID = review.ProductID,
+                customerID = review.CustomerID,
+                reviewText = review.ReviewText,
+                rating = review.Rating,
+                reviewDate = review.ReviewDate
+            };
+
+            return CreatedAtRoute("GetProductReviews", new { productId = review.ProductID }, result);
+        }
+    }
+}

@@ -1,0 +1,82 @@
+﻿using System;
+using System.Data;
+using OnlineStore.Models;
+using OnlineStore.DAL;
+
+namespace OnlineStore.BLL
+{
+    public class Image
+    {
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+
+        public ImageDTO ImageDTO
+        {
+            get { return new ImageDTO(ImageID = this.ImageID, ImageURL = this.ImageURL, ProductID = this.ProductID, ImageOrder = this.ImageOrder); }
+        }
+
+        public int? ImageID { set; get; }
+        public string ImageURL { set; get; }
+        public int ProductID { set; get; }
+        public short? ImageOrder { set; get; }
+
+        public Image(ImageDTO ImageDTO, enMode cMode = enMode.AddNew)
+        {
+            this.ImageID = ImageDTO.ImageID;
+            this.ImageURL = ImageDTO.ImageURL;
+            this.ProductID = ImageDTO.ProductID;
+            this.ImageOrder = ImageDTO.ImageOrder;
+            Mode = cMode;
+        }
+
+        private bool _AddNewImage()
+        {
+            this.ImageID = (int?)ImageData.AddImage(ImageDTO);
+            return (this.ImageID != -1);
+        }
+
+        private bool _UpdateImage()
+        {
+            return ImageData.UpdateImage(ImageDTO);
+        }
+
+        public static Image Find(int? ImageID)
+        {
+            ImageDTO ImageDTO = ImageData.GetImageByID(ImageID);
+
+            if (ImageDTO != null)
+                return new Image(ImageDTO, enMode.Update);
+            else
+                return null;
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewImage())
+                    {
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+                    return _UpdateImage();
+            }
+            return false;
+        }
+        public static bool DeleteImage(int? ImageID)
+            => ImageData.DeleteImage(ImageID);
+        public static bool DoesImageExist(int? ImageID)
+            => ImageData.DoesImageExist(ImageID);
+        public static DataTable GetAllProductImages()
+            => ImageData.GetAllProductImages();
+        public static DataTable GetImagesByProductId(int productId)
+            => ImageData.GetImagesByProductId(productId);
+    }
+}

@@ -1,0 +1,36 @@
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\refint\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.Models\obj\Debug\net9.0\ref\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\refint\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.Models\obj\Debug\net9.0\ref\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.deps.json
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.AssemblyInfoInputs.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.AssemblyInfo.cs
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.csproj.CoreCompileInputs.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.sourcelink.json
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\refint\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.Models\obj\Debug\net9.0\ref\OnlineStore.Models.dll

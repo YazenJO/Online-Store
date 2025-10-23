@@ -1,0 +1,82 @@
+﻿using System;
+using System.Data;
+using OnlineStore.Models;
+using OnlineStore.DAL;
+
+namespace OnlineStore.BLL
+{
+    public class Order
+    {
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+
+        public OrderDTO OrderDTO
+        {
+            get { return new OrderDTO(OrderID = this.OrderID, CustomerID = this.CustomerID, OrderDate = this.OrderDate, TotalAmount = this.TotalAmount, Status = this.Status); }
+        }
+
+        public int? OrderID { set; get; }
+        public int CustomerID { set; get; }
+        public DateTime? OrderDate { set; get; }
+        public decimal TotalAmount { set; get; }
+        public short? Status { set; get; }
+
+        public Order(OrderDTO OrderDTO, enMode cMode = enMode.AddNew)
+        {
+            this.OrderID = OrderDTO.OrderID;
+            this.CustomerID = OrderDTO.CustomerID;
+            this.OrderDate = OrderDTO.OrderDate;
+            this.TotalAmount = OrderDTO.TotalAmount;
+            this.Status = OrderDTO.Status;
+            Mode = cMode;
+        }
+
+        private bool _AddNewOrder()
+        {
+            this.OrderID = (int?)OrderData.AddOrder(OrderDTO);
+            return (this.OrderID != -1);
+        }
+
+        private bool _UpdateOrder()
+        {
+            return OrderData.UpdateOrder(OrderDTO);
+        }
+
+        public static Order Find(int? OrderID)
+        {
+            OrderDTO OrderDTO = OrderData.GetOrderByID(OrderID);
+
+            if (OrderDTO != null)
+                return new Order(OrderDTO, enMode.Update);
+            else
+                return null;
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewOrder())
+                    {
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+                    return _UpdateOrder();
+            }
+            return false;
+        }
+        public static bool DeleteOrder(int? OrderID)
+            => OrderData.DeleteOrder(OrderID);
+        public static bool DoesOrderExist(int? OrderID)
+            => OrderData.DoesOrderExist(OrderID);
+        public static DataTable GetAllOrders()
+            => OrderData.GetAllOrders();
+    }
+}

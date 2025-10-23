@@ -1,0 +1,133 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OnlineStore.BLL;
+using OnlineStore.Models;
+using OnlineStoreAPI.DTOs;
+using OnlineStoreAPI.Services;
+using System.Security.Claims;
+
+namespace OnlineStoreAPI.Controllers
+{
+    [ApiController]
+    [Route("api/auth")]
+    public class AuthController : ControllerBase
+    {
+        private readonly JwtService _jwtService;
+
+        public AuthController(JwtService jwtService)
+        {
+            _jwtService = jwtService;
+        }
+
+        [HttpPost("login")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public ActionResult<AuthResponseDTO> Login([FromBody] LoginRequestDTO loginRequest)
+        {
+            if (string.IsNullOrEmpty(loginRequest.Username) || string.IsNullOrEmpty(loginRequest.Password))
+            {
+                return BadRequest(new { message = "Username and password are required" });
+            }
+
+            // Find customer by username
+            var customer = Customer.FindByUsername(loginRequest.Username);
+
+            if (customer == null || customer.Password != loginRequest.Password)
+            {
+                return Unauthorized(new { message = "Invalid username or password" });
+            }
+
+            // Generate JWT token
+            var token = _jwtService.GenerateToken(customer.CustomerID!.Value, customer.Username);
+
+            // Remove password from response
+            var customerDto = customer.CustomerDTO;
+            customerDto.Password = null!; // Don't return password
+
+            return Ok(new AuthResponseDTO
+            {
+                Customer = customerDto,
+                Token = token
+            });
+        }
+
+        [HttpPost("register")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<AuthResponseDTO> Register([FromBody] RegisterRequestDTO registerRequest)
+        {
+            if (string.IsNullOrEmpty(registerRequest.Username) || 
+                string.IsNullOrEmpty(registerRequest.Password) ||
+                string.IsNullOrEmpty(registerRequest.Name) ||
+                string.IsNullOrEmpty(registerRequest.Email))
+            {
+                return BadRequest(new { message = "Name, email, username, and password are required" });
+            }
+
+            // Check if username already exists
+            var existingCustomer = Customer.FindByUsername(registerRequest.Username);
+            if (existingCustomer != null)
+            {
+                return BadRequest(new { message = "Username already exists" });
+            }
+
+            // Create new customer
+            var newCustomer = new Customer(new CustomerDTO(
+                null,
+                registerRequest.Name,
+                registerRequest.Email,
+                registerRequest.Phone,
+                registerRequest.Address,
+                registerRequest.Username,
+                registerRequest.Password
+            ));
+
+            if (!newCustomer.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, 
+                    new { message = "Error creating account" });
+            }
+
+            // Generate JWT token
+            var token = _jwtService.GenerateToken(newCustomer.CustomerID!.Value, newCustomer.Username);
+
+            // Remove password from response
+            var customerDto = newCustomer.CustomerDTO;
+            customerDto.Password = null!;
+
+            return CreatedAtRoute("GetCurrentUser", null, new AuthResponseDTO
+            {
+                Customer = customerDto,
+                Token = token
+            });
+        }
+
+        [Authorize]
+        [HttpGet("me", Name = "GetCurrentUser")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<CustomerDTO> GetCurrentUser()
+        {
+            // Get customer ID from JWT claims
+            var customerIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            
+            if (customerIdClaim == null || !int.TryParse(customerIdClaim.Value, out int customerId))
+            {
+                return Unauthorized(new { message = "Invalid token" });
+            }
+
+            var customer = Customer.Find(customerId);
+
+            if (customer == null)
+            {
+                return NotFound(new { message = "Customer not found" });
+            }
+
+            var customerDto = customer.CustomerDTO;
+            customerDto.Password = null!; // Don't return password
+
+            return Ok(customerDto);
+        }
+    }
+}

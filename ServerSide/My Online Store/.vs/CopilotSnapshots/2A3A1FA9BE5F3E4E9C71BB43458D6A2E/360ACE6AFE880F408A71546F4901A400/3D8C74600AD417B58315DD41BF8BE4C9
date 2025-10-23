@@ -1,0 +1,142 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using OnlineStore.BLL;
+using OnlineStore.Models;
+using System.Collections.Generic;
+
+namespace OnlineStoreAPI.Controllers
+{
+    [ApiController]
+    [Route("api/images")]
+    public class ProductImagesController : ControllerBase
+    {
+        [HttpGet("All", Name = "GetAllProductImages")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<ImageDTO>> GetAllProductImages()
+        {
+            var imagesList = OnlineStore.BLL.Image.GetAllProductImages();
+
+            if (imagesList == null || imagesList.Rows.Count == 0)
+            {
+                return NotFound("No Images Found!");
+            }
+
+            var dtoList = new List<ImageDTO>();
+
+            foreach (System.Data.DataRow row in imagesList.Rows)
+            {
+                dtoList.Add(new ImageDTO
+                (
+                    (int)row["ImageID"],
+                    (string)row["ImageURL"],
+                    (int)row["ProductID"],
+                    row.IsDBNull(row.GetOrdinal("ImageOrder")) ? null : (short?)row["ImageOrder"]
+                ));
+            }
+
+            return Ok(dtoList);
+        }
+
+        [HttpGet("{id}", Name = "GetImageById")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<ImageDTO> GetImageById(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            OnlineStore.BLL.Image image = OnlineStore.BLL.Image.Find(id);
+
+            if (image == null)
+            {
+                return NotFound($"Image with ID {id} not found.");
+            }
+
+            ImageDTO dto = image.ImageDTO;
+
+            return Ok(dto);
+        }
+
+        [HttpPost(Name = "AddImage")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<ImageDTO> AddImage(ImageDTO newImageDTO)
+        {
+            if (newImageDTO == null || string.IsNullOrEmpty(newImageDTO.ImageURL) || newImageDTO.ProductID < 1)
+            {
+                return BadRequest("Invalid Image data.");
+            }
+
+            OnlineStore.BLL.Image image = new OnlineStore.BLL.Image(new ImageDTO
+            (
+                    newImageDTO.ImageID,
+                    newImageDTO.ImageURL,
+                    newImageDTO.ProductID,
+                    newImageDTO.ImageOrder
+            ));
+
+            if (!image.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error adding Image");
+            }
+
+            newImageDTO.ImageID = image.ImageID;
+
+            return CreatedAtRoute("GetImageById", new { id = newImageDTO.ImageID }, newImageDTO);
+        }
+
+        [HttpPut("{id}", Name = "UpdateImage")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<ImageDTO> UpdateImage(int id, ImageDTO updatedImage)
+        {
+            if (id < 1 || updatedImage == null || string.IsNullOrEmpty(updatedImage.ImageURL) || updatedImage.ProductID < 1)
+            {
+                return BadRequest("Invalid Image data.");
+            }
+
+            OnlineStore.BLL.Image image = OnlineStore.BLL.Image.Find(id);
+
+            if (image == null)
+            {
+                return NotFound($"Image with ID {id} not found.");
+            }
+
+            image.ImageURL = updatedImage.ImageURL;
+            image.ProductID = updatedImage.ProductID;
+            image.ImageOrder = updatedImage.ImageOrder;
+
+            if (!image.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error updating Image");
+            }
+
+            return Ok(image.ImageDTO);
+        }
+
+        [HttpDelete("{id}", Name = "DeleteImage")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult DeleteImage(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            if (OnlineStore.BLL.Image.DeleteImage(id))
+            {
+                return Ok($"Image with ID {id} has been deleted.");
+            }
+            else
+            {
+                return NotFound($"Image with ID {id} not found. No rows deleted!");
+            }
+        }
+    }
+}

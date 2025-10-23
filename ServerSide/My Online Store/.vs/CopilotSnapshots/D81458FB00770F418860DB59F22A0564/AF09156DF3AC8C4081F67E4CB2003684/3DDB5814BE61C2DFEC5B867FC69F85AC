@@ -1,0 +1,932 @@
+﻿# 🚀 Online Store API - Complete Endpoint Reference
+
+**Base URL:** `https://localhost:5001/api` or `https://yourdomain.com/api`
+
+---
+
+## 📋 Table of Contents
+
+1. [Authentication](#authentication)
+2. [Customers](#customers)
+3. [Products](#products)
+4. [Categories](#categories)
+5. [Orders](#orders)
+6. [Order Items](#order-items)
+7. [Payments](#payments)
+8. [Shipping](#shipping)
+9. [Authorization](#authorization)
+10. [Status Codes](#status-codes)
+
+---
+
+## 🔐 Authentication
+
+### Register
+```http
+POST /api/auth/register
+```
+
+**Request:**
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "username": "johndoe",
+  "password": "SecurePass123",
+  "phone": "1234567890",
+  "address": "123 Main St"
+}
+```
+
+**Response:** `201 Created`
+```json
+{
+  "customer": {
+    "customerID": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "username": "johndoe",
+    "role": "Customer"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+---
+
+### Login
+```http
+POST /api/auth/login
+```
+
+**Request:**
+```json
+{
+  "username": "johndoe",
+  "password": "SecurePass123"
+}
+```
+
+**Response:** `200 OK`
+```json
+{
+  "customer": {
+    "customerID": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "username": "johndoe",
+    "role": "Customer"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+---
+
+### Get Current User
+```http
+GET /api/auth/me
+Authorization: Bearer {token}
+```
+
+**Response:** `200 OK`
+```json
+{
+  "customerID": 1,
+  "name": "John Doe",
+  "email": "john@example.com",
+  "username": "johndoe",
+  "phone": "1234567890",
+  "address": "123 Main St",
+  "role": "Customer"
+}
+```
+
+---
+
+## 👥 Customers
+
+### Get All Customers (Admin Only)
+```http
+GET /api/customers
+Authorization: Bearer {admin-token}
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "customerID": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "username": "johndoe",
+    "role": "Customer"
+  }
+]
+```
+
+---
+
+### Get Customer by ID
+```http
+GET /api/customers/{id}
+Authorization: Bearer {token}
+```
+
+**Response:** `200 OK`
+```json
+{
+  "customerID": 1,
+  "name": "John Doe",
+  "email": "john@example.com",
+  "username": "johndoe",
+  "phone": "1234567890",
+  "address": "123 Main St",
+  "role": "Customer"
+}
+```
+
+---
+
+### Create Customer (Admin Only)
+```http
+POST /api/customers
+Authorization: Bearer {admin-token}
+```
+
+**Request:**
+```json
+{
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "username": "janesmith",
+  "password": "SecurePass456",
+  "phone": "0987654321",
+  "address": "456 Oak Ave",
+  "role": "Customer"
+}
+```
+
+---
+
+### Update Customer
+```http
+PUT /api/customers/{id}
+Authorization: Bearer {token}
+```
+
+**Request:**
+```json
+{
+  "customerID": 1,
+  "name": "John Updated",
+  "email": "john.updated@example.com",
+  "username": "johndoe",
+  "password": "NewPassword123",
+  "phone": "1112223333",
+  "address": "789 New St",
+  "role": "Customer"
+}
+```
+
+---
+
+### Delete Customer (Admin Only)
+```http
+DELETE /api/customers/{id}
+Authorization: Bearer {admin-token}
+```
+
+**Response:** `200 OK`
+
+---
+
+### Check Customer Exists
+```http
+GET /api/customers/Exists/{id}
+Authorization: Bearer {token}
+```
+
+**Response:** `200 OK`
+```json
+true
+```
+
+---
+
+## 📦 Products
+
+### Get All Products
+```http
+GET /api/products
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "productID": 1,
+    "productName": "Laptop",
+    "description": "High-performance laptop",
+    "price": 1299.99,
+    "quantityInStock": 50,
+    "categoryID": 1
+  }
+]
+```
+
+---
+
+### Get Product by ID
+```http
+GET /api/products/{id}
+```
+
+**Response:** `200 OK`
+```json
+{
+  "productID": 1,
+  "productName": "Laptop",
+  "description": "High-performance laptop",
+  "price": 1299.99,
+  "quantityInStock": 50,
+  "categoryID": 1
+}
+```
+
+---
+
+### Create Product (Admin Only)
+```http
+POST /api/products
+Authorization: Bearer {admin-token}
+```
+
+**Request:**
+```json
+{
+  "productName": "Gaming Mouse",
+  "description": "RGB gaming mouse",
+  "price": 79.99,
+  "quantityInStock": 100,
+  "categoryID": 2
+}
+```
+
+---
+
+### Update Product (Admin Only)
+```http
+PUT /api/products/{id}
+Authorization: Bearer {admin-token}
+```
+
+**Request:**
+```json
+{
+  "productID": 1,
+  "productName": "Laptop Updated",
+  "description": "Updated description",
+  "price": 1199.99,
+  "quantityInStock": 45,
+  "categoryID": 1
+}
+```
+
+---
+
+### Delete Product (Admin Only)
+```http
+DELETE /api/products/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+### Check Product Exists
+```http
+GET /api/products/Exists/{id}
+```
+
+**Response:** `200 OK`
+```json
+true
+```
+
+---
+
+## 📊 Categories
+
+### Get All Categories
+```http
+GET /api/categories
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "categoryID": 1,
+    "categoryName": "Electronics",
+    "description": "Electronic devices and accessories"
+  }
+]
+```
+
+---
+
+### Get Category by ID
+```http
+GET /api/categories/{id}
+```
+
+---
+
+### Create Category (Admin Only)
+```http
+POST /api/categories
+Authorization: Bearer {admin-token}
+```
+
+**Request:**
+```json
+{
+  "categoryName": "Furniture",
+  "description": "Home and office furniture"
+}
+```
+
+---
+
+### Update Category (Admin Only)
+```http
+PUT /api/categories/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+### Delete Category (Admin Only)
+```http
+DELETE /api/categories/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+## 🛒 Orders
+
+### Get All Orders (Admin Only)
+```http
+GET /api/orders/All
+Authorization: Bearer {admin-token}
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "orderID": 1,
+    "customerID": 5,
+    "orderDate": "2025-01-20T10:30:00Z",
+    "totalAmount": 1599.98,
+    "status": 1,
+    "statusText": "Pending"
+  }
+]
+```
+
+---
+
+### Get Order by ID
+```http
+GET /api/orders/{id}
+Authorization: Bearer {token}
+```
+
+**Response:** `200 OK`
+```json
+{
+  "orderID": 1,
+  "customerID": 5,
+  "orderDate": "2025-01-20T10:30:00Z",
+  "totalAmount": 1599.98,
+  "status": 1,
+  "statusText": "Pending"
+}
+```
+
+---
+
+### Get Orders by Customer ID
+```http
+GET /api/orders/customer/{customerId}
+Authorization: Bearer {token}
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "orderID": 1,
+    "customerID": 5,
+    "orderDate": "2025-01-20T10:30:00Z",
+    "totalAmount": 1599.98,
+    "status": 1,
+    "statusText": "Pending"
+  }
+]
+```
+
+---
+
+### Create Complete Order ⭐ **RECOMMENDED**
+```http
+POST /api/orders/complete
+Authorization: Bearer {token}
+```
+
+**Request:**
+```json
+{
+  "customerID": 5,
+  "items": [
+    {
+      "productID": 1,
+      "quantity": 2
+    },
+    {
+      "productID": 3,
+      "quantity": 1
+    }
+  ],
+  "paymentMethod": "CreditCard",
+  "shippingAddress": "123 Main St, City, State 12345",
+  "carrierName": "FedEx",
+  "estimatedDeliveryDate": "2025-01-27T00:00:00Z",
+  "orderStatus": 1
+}
+```
+
+**Response:** `201 Created`
+```json
+{
+  "success": true,
+  "message": "Order created successfully with 2 item(s)",
+  "order": {
+    "orderID": 1,
+    "customerID": 5,
+    "orderDate": "2025-01-20T10:30:00Z",
+    "totalAmount": 1599.98,
+    "status": 1,
+    "statusText": "Pending"
+  },
+  "orderItems": [
+    {
+      "orderID": 1,
+      "productID": 1,
+      "quantity": 2,
+      "price": 1299.99,
+      "totalItemsPrice": 2599.98
+    },
+    {
+      "orderID": 1,
+      "productID": 3,
+      "quantity": 1,
+      "price": 299.99,
+      "totalItemsPrice": 299.99
+    }
+  ],
+  "payment": {
+    "paymentID": 1,
+    "orderID": 1,
+    "amount": 1599.98,
+    "paymentMethod": "CreditCard",
+    "transactionDate": "2025-01-20T10:30:00Z"
+  },
+  "shipping": {
+    "shippingID": 1,
+    "orderID": 1,
+    "carrierName": "FedEx",
+    "trackingNumber": "TRACK-20250120-123456",
+    "shippingStatus": 1,
+    "estimatedDeliveryDate": "2025-01-27T00:00:00Z",
+    "actualDeliveryDate": null
+  }
+}
+```
+
+---
+
+### Create Order (Simple - Legacy)
+```http
+POST /api/orders
+Authorization: Bearer {token}
+```
+
+**Request:**
+```json
+{
+  "customerID": 5,
+  "orderDate": "2025-01-20T10:30:00Z",
+  "totalAmount": 1599.98,
+  "status": 1
+}
+```
+
+---
+
+### Update Order (Admin Only)
+```http
+PUT /api/orders/{id}
+Authorization: Bearer {admin-token}
+```
+
+**Request:**
+```json
+{
+  "orderID": 1,
+  "customerID": 5,
+  "orderDate": "2025-01-20T10:30:00Z",
+  "totalAmount": 1599.98,
+  "status": 2
+}
+```
+
+---
+
+### Delete Order (Admin Only)
+```http
+DELETE /api/orders/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+### Check Order Exists
+```http
+GET /api/orders/Exists/{id}
+Authorization: Bearer {token}
+```
+
+---
+
+## 📋 Order Items
+
+### Get Order Items by Order ID
+```http
+GET /api/orderitems/order/{orderId}
+Authorization: Bearer {token}
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "orderID": 1,
+    "productID": 1,
+    "quantity": 2,
+    "price": 1299.99,
+    "totalItemsPrice": 2599.98
+  }
+]
+```
+
+---
+
+### Get Specific Order Item
+```http
+GET /api/orderitems/{orderId}/{productId}
+Authorization: Bearer {token}
+```
+
+---
+
+### Create Order Item
+```http
+POST /api/orderitems
+Authorization: Bearer {token}
+```
+
+**Request:**
+```json
+{
+  "orderID": 1,
+  "productID": 5,
+  "quantity": 3,
+  "price": 49.99,
+  "totalItemsPrice": 149.97
+}
+```
+
+---
+
+### Update Order Item
+```http
+PUT /api/orderitems/{orderId}/{productId}
+Authorization: Bearer {token}
+```
+
+---
+
+### Delete Order Item
+```http
+DELETE /api/orderitems/{orderId}/{productId}
+Authorization: Bearer {token}
+```
+
+---
+
+### Delete All Items in Order
+```http
+DELETE /api/orderitems/order/{orderId}
+Authorization: Bearer {token}
+```
+
+---
+
+## 💳 Payments
+
+### Get All Payments (Admin Only)
+```http
+GET /api/payments
+Authorization: Bearer {admin-token}
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "paymentID": 1,
+    "orderID": 1,
+    "amount": 1599.98,
+    "paymentMethod": "CreditCard",
+    "transactionDate": "2025-01-20T10:30:00Z"
+  }
+]
+```
+
+---
+
+### Get Payment by ID
+```http
+GET /api/payments/{id}
+Authorization: Bearer {token}
+```
+
+---
+
+### Get Payment by Order ID
+```http
+GET /api/payments/order/{orderId}
+Authorization: Bearer {token}
+```
+
+---
+
+### Create Payment
+```http
+POST /api/payments
+Authorization: Bearer {token}
+```
+
+**Request:**
+```json
+{
+  "orderID": 1,
+  "amount": 1599.98,
+  "paymentMethod": "PayPal",
+  "transactionDate": "2025-01-20T10:30:00Z"
+}
+```
+
+---
+
+### Update Payment (Admin Only)
+```http
+PUT /api/payments/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+### Delete Payment (Admin Only)
+```http
+DELETE /api/payments/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+## 🚚 Shipping
+
+### Get All Shippings (Admin Only)
+```http
+GET /api/shippings
+Authorization: Bearer {admin-token}
+```
+
+**Response:** `200 OK`
+```json
+[
+  {
+    "shippingID": 1,
+    "orderID": 1,
+    "carrierName": "FedEx",
+    "trackingNumber": "TRACK-20250120-123456",
+    "shippingStatus": 1,
+    "estimatedDeliveryDate": "2025-01-27T00:00:00Z",
+    "actualDeliveryDate": null
+  }
+]
+```
+
+---
+
+### Get Shipping by ID
+```http
+GET /api/shippings/{id}
+Authorization: Bearer {token}
+```
+
+---
+
+### Get Shipping by Order ID
+```http
+GET /api/shippings/order/{orderId}
+Authorization: Bearer {token}
+```
+
+---
+
+### Create Shipping
+```http
+POST /api/shippings
+Authorization: Bearer {token}
+```
+
+**Request:**
+```json
+{
+  "orderID": 1,
+  "carrierName": "UPS",
+  "trackingNumber": "1Z999AA10123456789",
+  "shippingStatus": 1,
+  "estimatedDeliveryDate": "2025-01-27T00:00:00Z"
+}
+```
+
+---
+
+### Update Shipping (Admin Only)
+```http
+PUT /api/shippings/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+### Delete Shipping (Admin Only)
+```http
+DELETE /api/shippings/{id}
+Authorization: Bearer {admin-token}
+```
+
+---
+
+## 🔐 Authorization
+
+### Headers
+All protected endpoints require JWT token:
+```http
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+```
+
+### Roles
+- **Customer**: Regular user role
+- **Admin**: Administrator role with full access
+
+### Public Endpoints (No Auth Required)
+- `POST /api/auth/register`
+- `POST /api/auth/login`
+- `GET /api/products`
+- `GET /api/products/{id}`
+- `GET /api/categories`
+- `GET /api/categories/{id}`
+
+---
+
+## 📊 Status Codes
+
+| Code | Meaning |
+|------|---------|
+| `200` | Success |
+| `201` | Created |
+| `400` | Bad Request - Invalid data |
+| `401` | Unauthorized - Missing/invalid token |
+| `403` | Forbidden - Insufficient permissions |
+| `404` | Not Found |
+| `500` | Internal Server Error |
+
+---
+
+## 📋 Order Status Values
+
+| Value | Name | Description |
+|-------|------|-------------|
+| `1` | Pending | Order placed (default) |
+| `2` | Processing | Being prepared |
+| `3` | Shipped | Sent to customer |
+| `4` | Delivered | Customer received |
+| `5` | Cancelled | Order cancelled |
+| `6` | Completed | Successfully done |
+
+---
+
+## 🎯 Quick Start for Frontend
+
+### 1. User Registration/Login
+```javascript
+// Register
+const response = await fetch('https://api.yourstore.com/api/auth/register', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    name: "John Doe",
+    email: "john@example.com",
+    username: "johndoe",
+    password: "SecurePass123"
+  })
+});
+const { token } = await response.json();
+localStorage.setItem('token', token);
+```
+
+### 2. Fetch Products
+```javascript
+const response = await fetch('https://api.yourstore.com/api/products');
+const products = await response.json();
+```
+
+### 3. Create Order
+```javascript
+const token = localStorage.getItem('token');
+const response = await fetch('https://api.yourstore.com/api/orders/complete', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${token}`
+  },
+  body: JSON.stringify({
+    customerID: 5,
+    items: [
+      { productID: 1, quantity: 2 },
+      { productID: 3, quantity: 1 }
+    ],
+    paymentMethod: "CreditCard",
+    shippingAddress: "123 Main St",
+    carrierName: "FedEx"
+  })
+});
+const order = await response.json();
+```
+
+### 4. Get User's Orders
+```javascript
+const token = localStorage.getItem('token');
+const customerId = 5;
+const response = await fetch(`https://api.yourstore.com/api/orders/customer/${customerId}`, {
+  headers: {
+    'Authorization': `Bearer ${token}`
+  }
+});
+const orders = await response.json();
+```
+
+---
+
+## 📝 Summary
+
+**Total Endpoints:** 46
+
+### By Category:
+- **Authentication:** 3 endpoints
+- **Customers:** 6 endpoints
+- **Products:** 6 endpoints
+- **Categories:** 5 endpoints
+- **Orders:** 8 endpoints
+- **Order Items:** 6 endpoints
+- **Payments:** 6 endpoints
+- **Shipping:** 6 endpoints
+
+### Most Used:
+1. `POST /api/auth/register` - Register user
+2. `POST /api/auth/login` - Login
+3. `GET /api/products` - Get products
+4. `POST /api/orders/complete` - Create order ⭐
+5. `GET /api/orders/customer/{customerId}` - User orders
+
+---
+
+**Last Updated:** January 2025
+**API Version:** 1.0

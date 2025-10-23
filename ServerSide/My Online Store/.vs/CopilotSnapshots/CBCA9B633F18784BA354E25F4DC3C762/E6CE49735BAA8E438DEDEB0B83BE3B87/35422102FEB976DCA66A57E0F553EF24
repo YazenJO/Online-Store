@@ -1,0 +1,221 @@
+﻿-- =====================================================
+-- OrderItems Table and Stored Procedures
+-- =====================================================
+-- This script creates the complete OrderItems functionality
+
+-- =====================================================
+-- STEP 1: Create OrderItems Table (if not exists)
+-- =====================================================
+
+-- Check if OrderItems table exists, if not create it
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'OrderItems')
+BEGIN
+    CREATE TABLE OrderItems (
+        OrderItemID INT PRIMARY KEY IDENTITY(1,1),
+        OrderID INT NOT NULL,
+        ProductID INT NOT NULL,
+        Quantity INT NOT NULL CHECK (Quantity > 0),
+        Price DECIMAL(10, 2) NOT NULL CHECK (Price >= 0),
+        TotalItemsPrice DECIMAL(10, 2) NOT NULL CHECK (TotalItemsPrice >= 0),
+        FOREIGN KEY (OrderID) REFERENCES Orders(OrderID) ON DELETE CASCADE,
+        FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+    );
+    PRINT 'OrderItems table created successfully!';
+END
+ELSE
+BEGIN
+    PRINT 'OrderItems table already exists.';
+END
+GO
+
+-- =====================================================
+-- STEP 2: Stored Procedures
+-- =====================================================
+
+-- SP_AddOrderItem: Add a new order item
+CREATE OR ALTER PROCEDURE SP_AddOrderItem
+    @OrderID INT,
+    @ProductID INT,
+    @Quantity INT,
+    @Price DECIMAL(10, 2),
+    @TotalItemsPrice DECIMAL(10, 2),
+    @NewOrderItemID INT OUTPUT
+AS
+BEGIN
+    INSERT INTO OrderItems (OrderID, ProductID, Quantity, Price, TotalItemsPrice)
+    VALUES (@OrderID, @ProductID, @Quantity, @Price, @TotalItemsPrice);
+    
+    SET @NewOrderItemID = SCOPE_IDENTITY();
+END;
+GO
+
+-- SP_GetOrderItemByID: Get a single order item by ID
+CREATE OR ALTER PROCEDURE SP_GetOrderItemByID
+    @OrderItemID INT
+AS
+BEGIN
+    SELECT OrderItemID, OrderID, ProductID, Quantity, Price, TotalItemsPrice
+    FROM OrderItems
+    WHERE OrderItemID = @OrderItemID;
+END;
+GO
+
+-- SP_GetOrderItemsByOrderID: Get all items for a specific order
+CREATE OR ALTER PROCEDURE SP_GetOrderItemsByOrderID
+    @OrderID INT
+AS
+BEGIN
+    SELECT 
+        oi.OrderItemID,
+        oi.OrderID,
+        oi.ProductID,
+        p.ProductName,
+        oi.Quantity,
+        oi.Price,
+        oi.TotalItemsPrice
+    FROM OrderItems oi
+    INNER JOIN Products p ON oi.ProductID = p.ProductID
+    WHERE oi.OrderID = @OrderID;
+END;
+GO
+
+-- SP_UpdateOrderItem: Update an order item
+CREATE OR ALTER PROCEDURE SP_UpdateOrderItem
+    @OrderItemID INT,
+    @OrderID INT,
+    @ProductID INT,
+    @Quantity INT,
+    @Price DECIMAL(10, 2),
+    @TotalItemsPrice DECIMAL(10, 2)
+AS
+BEGIN
+    UPDATE OrderItems
+    SET OrderID = @OrderID,
+        ProductID = @ProductID,
+        Quantity = @Quantity,
+        Price = @Price,
+        TotalItemsPrice = @TotalItemsPrice
+    WHERE OrderItemID = @OrderItemID;
+    
+    SELECT @@ROWCOUNT;
+END;
+GO
+
+-- SP_DeleteOrderItem: Delete an order item
+CREATE OR ALTER PROCEDURE SP_DeleteOrderItem
+    @OrderItemID INT
+AS
+BEGIN
+    DELETE FROM OrderItems
+    WHERE OrderItemID = @OrderItemID;
+    
+    SELECT @@ROWCOUNT;
+END;
+GO
+
+-- SP_DeleteOrderItemsByOrderID: Delete all items for an order (used in rollback)
+CREATE OR ALTER PROCEDURE SP_DeleteOrderItemsByOrderID
+    @OrderID INT
+AS
+BEGIN
+    DELETE FROM OrderItems
+    WHERE OrderID = @OrderID;
+    
+    SELECT @@ROWCOUNT;
+END;
+GO
+
+-- SP_DoesOrderItemExist: Check if an order item exists
+CREATE OR ALTER PROCEDURE SP_DoesOrderItemExist
+    @OrderItemID INT
+AS
+BEGIN
+    IF EXISTS (SELECT 1 FROM OrderItems WHERE OrderItemID = @OrderItemID)
+        SELECT CAST(1 AS BIT) AS Result;
+    ELSE
+        SELECT CAST(0 AS BIT) AS Result;
+END;
+GO
+
+-- SP_GetAllOrderItems: Get all order items (admin)
+CREATE OR ALTER PROCEDURE SP_GetAllOrderItems
+AS
+BEGIN
+    SELECT 
+        oi.OrderItemID,
+        oi.OrderID,
+        oi.ProductID,
+        p.ProductName,
+        oi.Quantity,
+        oi.Price,
+        oi.TotalItemsPrice
+    FROM OrderItems oi
+    INNER JOIN Products p ON oi.ProductID = p.ProductID
+    ORDER BY oi.OrderID DESC, oi.OrderItemID;
+END;
+GO
+
+-- =====================================================
+-- STEP 3: Helper Procedure to Update Product Stock
+-- =====================================================
+
+CREATE OR ALTER PROCEDURE SP_UpdateProductStock
+    @ProductID INT,
+    @QuantityChange INT  -- Negative to reduce, positive to increase
+AS
+BEGIN
+    UPDATE Products
+    SET QuantityInStock = QuantityInStock + @QuantityChange
+    WHERE ProductID = @ProductID;
+    
+    -- Return the new stock level
+    SELECT QuantityInStock
+    FROM Products
+    WHERE ProductID = @ProductID;
+END;
+GO
+
+-- =====================================================
+-- STEP 4: Verification Queries
+-- =====================================================
+
+-- Check if OrderItems table exists and show structure
+SELECT 
+    COLUMN_NAME, 
+    DATA_TYPE, 
+    IS_NULLABLE, 
+    COLUMN_DEFAULT
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'OrderItems'
+ORDER BY ORDINAL_POSITION;
+GO
+
+-- List all created stored procedures
+SELECT 
+    ROUTINE_NAME,
+    ROUTINE_TYPE,
+    CREATED,
+    LAST_ALTERED
+FROM INFORMATION_SCHEMA.ROUTINES
+WHERE ROUTINE_NAME LIKE 'SP_%OrderItem%'
+   OR ROUTINE_NAME = 'SP_UpdateProductStock'
+ORDER BY ROUTINE_NAME;
+GO
+
+PRINT '=======================================================';
+PRINT 'OrderItems table and stored procedures created successfully!';
+PRINT '=======================================================';
+PRINT '';
+PRINT 'Created Stored Procedures:';
+PRINT '1. SP_AddOrderItem';
+PRINT '2. SP_GetOrderItemByID';
+PRINT '3. SP_GetOrderItemsByOrderID';
+PRINT '4. SP_UpdateOrderItem';
+PRINT '5. SP_DeleteOrderItem';
+PRINT '6. SP_DeleteOrderItemsByOrderID';
+PRINT '7. SP_DoesOrderItemExist';
+PRINT '8. SP_GetAllOrderItems';
+PRINT '9. SP_UpdateProductStock';
+PRINT '';
+PRINT 'You can now implement the Data Access Layer!';
+GO

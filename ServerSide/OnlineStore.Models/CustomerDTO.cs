@@ -1,0 +1,28 @@
+﻿using System;
+
+namespace OnlineStore.Models
+{
+    public class CustomerDTO
+    {
+        public CustomerDTO(int? customerid, string name, string email, string phone, string address, string username, string password, string role = "Customer")
+        {
+            this.CustomerID = customerid;
+            this.Name = name;
+            this.Email = email;
+            this.Phone = phone;
+            this.Address = address;
+            this.Username = username;
+            this.Password = password;
+            this.Role = role;
+        }
+
+        public int? CustomerID { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Address { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
+    }
+}

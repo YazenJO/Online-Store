@@ -1,0 +1,14 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Jwt": {
+    "Key": "YourSuperSecretKeyThatIsAtLeast32CharactersLong!!!",
+    "Issuer": "OnlineStoreAPI",
+    "Audience": "OnlineStoreClient"
+  }
+}

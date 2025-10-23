@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace OnlineStore.Models
+{
+    public class OrderDTO
+    {
+        public OrderDTO(int? orderid, int customerid, DateTime? orderdate, decimal totalamount, short? status)
+        {
+            this.OrderID = orderid;
+            this.CustomerID = customerid;
+            this.OrderDate = orderdate;
+            this.TotalAmount = totalamount;
+            this.Status = status;
+        }
+
+        public int? OrderID { get; set; }
+        public int CustomerID { get; set; }
+        public DateTime? OrderDate { get; set; }
+        public decimal TotalAmount { get; set; }
+        public short? Status { get; set; }
+    }
+}

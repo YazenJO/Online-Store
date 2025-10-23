@@ -1,0 +1,54 @@
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.csproj.AssemblyReference.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineSt.092A8FFB.Up2Date
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\refint\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.BLL\obj\Debug\net9.0\ref\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.csproj.AssemblyReference.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineSt.092A8FFB.Up2Date
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\refint\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.BLL\obj\Debug\net9.0\ref\OnlineStore.BLL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.deps.json
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.csproj.AssemblyReference.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.AssemblyInfoInputs.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.AssemblyInfo.cs
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.csproj.CoreCompileInputs.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.sourcelink.json
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineSt.092A8FFB.Up2Date
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\refint\OnlineStore.BLL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.BLL\obj\Debug\net9.0\ref\OnlineStore.BLL.dll

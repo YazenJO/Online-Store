@@ -1,0 +1,289 @@
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\appsettings.Development.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\appsettings.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\components.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\jsconfig.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\package.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\tsconfig.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\tsconfig.node.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\My Online Store.staticwebassets.endpoints.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\My Online Store.exe
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\My Online Store.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\My Online Store.runtimeconfig.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\My Online Store.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Azure.Core.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Azure.Identity.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.ClientModel.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.Memory.Data.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.csproj.AssemblyReference.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.MvcApplicationPartsAssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.MvcApplicationPartsAssemblyInfo.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\scopedcss\bundle\My Online Store.styles.css
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\staticwebassets.build.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\staticwebassets.development.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\swae.build.ex.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Onlin.D9D78A97.Up2Date
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\refint\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\My Online Store.genruntimeconfig.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\obj\Debug\net9.0\ref\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\My Online Store\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\appsettings.Development.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\appsettings.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\components.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\jsconfig.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\package.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\tsconfig.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ClientSide\Design a Full Online Store Website with Web API Integration\online-store-complete\online-store\tsconfig.node.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\My Online Store.staticwebassets.endpoints.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\My Online Store.exe
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\My Online Store.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\My Online Store.runtimeconfig.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\My Online Store.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Azure.Core.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Azure.Identity.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.ClientModel.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.Memory.Data.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.csproj.AssemblyReference.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.MvcApplicationPartsAssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.MvcApplicationPartsAssemblyInfo.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\scopedcss\bundle\My Online Store.styles.css
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\staticwebassets.build.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\staticwebassets.development.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\swae.build.ex.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Onlin.D9D78A97.Up2Date
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\refint\My Online Store.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\My Online Store.genruntimeconfig.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\My Online Store\obj\Debug\net9.0\ref\My Online Store.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\appsettings.Development.json
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\appsettings.json
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\My Online Store.staticwebassets.endpoints.json
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\My Online Store.exe
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\My Online Store.deps.json
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\My Online Store.runtimeconfig.json
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\My Online Store.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\My Online Store.pdb
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Azure.Core.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Azure.Identity.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.ClientModel.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.Memory.Data.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\OnlineStore.BLL.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\OnlineStore.BLL.pdb
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Online-Store\ServerSide\My Online Store\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.csproj.AssemblyReference.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.AssemblyInfoInputs.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.AssemblyInfo.cs
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.csproj.CoreCompileInputs.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.MvcApplicationPartsAssemblyInfo.cs
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.MvcApplicationPartsAssemblyInfo.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.sourcelink.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\scopedcss\bundle\My Online Store.styles.css
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\staticwebassets.build.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\staticwebassets.development.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\swae.build.ex.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Onlin.D9D78A97.Up2Date
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\refint\My Online Store.dll
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.pdb
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\My Online Store.genruntimeconfig.cache
+D:\MY World\Online-Store\ServerSide\My Online Store\obj\Debug\net9.0\ref\My Online Store.dll

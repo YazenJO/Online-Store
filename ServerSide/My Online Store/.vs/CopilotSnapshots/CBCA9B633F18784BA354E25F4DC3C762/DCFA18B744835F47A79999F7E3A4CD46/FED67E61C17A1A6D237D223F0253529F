@@ -1,0 +1,25 @@
+﻿namespace OnlineStore.Models
+{
+    /// <summary>
+    /// DTO for Order Items
+    /// </summary>
+    public class OrderItemDTO
+    {
+        public OrderItemDTO(int? orderitemid, int orderid, int productid, int quantity, decimal price, decimal totalitemsprice)
+        {
+            this.OrderItemID = orderitemid;
+            this.OrderID = orderid;
+            this.ProductID = productid;
+            this.Quantity = quantity;
+            this.Price = price;
+            this.TotalItemsPrice = totalitemsprice;
+        }
+
+        public int? OrderItemID { get; set; }
+        public int OrderID { get; set; }
+        public int ProductID { get; set; }
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+        public decimal TotalItemsPrice { get; set; }
+    }
+}

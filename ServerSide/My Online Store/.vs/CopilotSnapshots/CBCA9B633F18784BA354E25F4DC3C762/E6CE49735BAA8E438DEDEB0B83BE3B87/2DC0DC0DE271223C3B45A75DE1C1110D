@@ -1,0 +1,461 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using OnlineStore.BLL;
+using OnlineStore.DAL;
+using OnlineStore.Models;
+using OnlineStoreAPI.DTOs;
+using System.Collections.Generic;
+
+namespace OnlineStoreAPI.Controllers
+{
+
+    [ApiController]
+    [Route("api/Orders")]
+    public class OrdersController : ControllerBase
+    {
+
+        [Authorize(Roles = "Admin")] // Only Admin can see all orders
+        [HttpGet("All", Name = "GetAllOrders")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<OrderDTO>> GetAllOrders()
+        {
+            var ordersList = Order.GetAllOrders();
+
+            if (ordersList == null || ordersList.Rows.Count == 0)
+            {
+                return NotFound("No Orders Found!");
+            }
+
+            var dtoList = new List<OrderDTO>();
+
+            foreach (System.Data.DataRow row in ordersList.Rows)
+            {
+                dtoList.Add(new OrderDTO
+                (
+                    (int?)row["OrderID"],
+                    (int)row["CustomerID"],
+                    (DateTime?)row["OrderDate"],
+                    (decimal)row["TotalAmount"],
+                    (short?)row["Status"]
+                ));
+            }
+
+            return Ok(dtoList);
+        }
+
+        [Authorize] // Both Customer and Admin can view specific order
+        [HttpGet("{id}", Name = "GetOrderById")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<OrderDTO> GetOrderById(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            Order order = Order.Find(id);
+
+            if (order == null)
+            {
+                return NotFound($"Order with ID {id} not found.");
+            }
+
+            // Check if user is Admin or the order belongs to them
+            var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (userRole != "Admin" && order.CustomerID.ToString() != userId)
+            {
+                return Forbid(); // User can only view their own orders
+            }
+
+            OrderDTO dto = order.OrderDTO;
+
+            return Ok(dto);
+        }
+
+        [Authorize] // Any authenticated user - customers get their own, admins can specify
+        [HttpGet("customer/{customerId}", Name = "GetOrdersByCustomerID")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<IEnumerable<OrderDTO>> GetOrdersByCustomerID(int customerId)
+        {
+            if (customerId < 1)
+            {
+                return BadRequest(new { message = $"Invalid customer ID {customerId}" });
+            }
+
+            // Check authorization - users can only view their own orders unless they're admin
+            var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (userRole != "Admin" && customerId.ToString() != userId)
+            {
+                return Forbid(); // Customers can only view their own orders
+            }
+
+            var ordersList = Order.GetOrdersByCustomerID(customerId);
+
+            if (ordersList == null || ordersList.Rows.Count == 0)
+            {
+                return Ok(new List<OrderDTO>()); // Return empty list instead of 404
+            }
+
+            var dtoList = new List<OrderDTO>();
+
+            foreach (System.Data.DataRow row in ordersList.Rows)
+            {
+                dtoList.Add(new OrderDTO
+                (
+                    (int?)row["OrderID"],
+                    (int)row["CustomerID"],
+                    (DateTime?)row["OrderDate"],
+                    (decimal)row["TotalAmount"],
+                    (short?)row["Status"]
+                ));
+            }
+
+            return Ok(dtoList);
+        }
+
+        [Authorize] // Authenticated users can create complete orders
+        [HttpPost("complete", Name = "CreateCompleteOrder")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<CompleteOrderResponseDTO> CreateCompleteOrder([FromBody] CreateCompleteOrderRequestDTO orderRequest)
+        {
+            // Validate request
+            if (orderRequest == null)
+            {
+                return BadRequest(new { message = "Order request cannot be null" });
+            }
+
+            // Get current user info
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+
+            // Authorization check: Customers can only create orders for themselves
+            if (userRole != "Admin" && orderRequest.CustomerID.ToString() != userId)
+            {
+                return Forbid();
+            }
+
+            // Validate required fields
+            if (orderRequest.CustomerID < 1)
+            {
+                return BadRequest(new { message = "Invalid customer ID" });
+            }
+
+            if (orderRequest.Items == null || orderRequest.Items.Count == 0)
+            {
+                return BadRequest(new { message = "Order must contain at least one item" });
+            }
+
+            if (string.IsNullOrWhiteSpace(orderRequest.PaymentMethod))
+            {
+                return BadRequest(new { message = "Payment method is required" });
+            }
+
+            if (string.IsNullOrWhiteSpace(orderRequest.ShippingAddress))
+            {
+                return BadRequest(new { message = "Shipping address is required" });
+            }
+
+            if (string.IsNullOrWhiteSpace(orderRequest.CarrierName))
+            {
+                return BadRequest(new { message = "Carrier name is required" });
+            }
+
+            // Verify customer exists
+            if (!Customer.DoesCustomerExist(orderRequest.CustomerID))
+            {
+                return BadRequest(new { message = $"Customer with ID {orderRequest.CustomerID} does not exist" });
+            }
+
+            try
+            {
+                // Step 1: Validate products and calculate total
+                decimal orderTotal = 0;
+                var validatedItems = new List<(int ProductID, int Quantity, decimal Price, decimal ItemTotal)>();
+
+                foreach (var item in orderRequest.Items)
+                {
+                    // Validate item
+                    if (item.ProductID < 1)
+                    {
+                        return BadRequest(new { message = $"Invalid product ID: {item.ProductID}" });
+                    }
+
+                    if (item.Quantity < 1)
+                    {
+                        return BadRequest(new { message = $"Invalid quantity for product {item.ProductID}" });
+                    }
+
+                    // Get product from database
+                    var product = Product.Find(item.ProductID);
+                    if (product == null)
+                    {
+                        return BadRequest(new { message = $"Product with ID {item.ProductID} does not exist" });
+                    }
+
+                    // Check stock availability
+                    if (product.QuantityInStock < item.Quantity)
+                    {
+                        return BadRequest(new { message = $"Insufficient stock for product '{product.ProductName}'. Available: {product.QuantityInStock}, Requested: {item.Quantity}" });
+                    }
+
+                    // Calculate item total using REAL price from database (security!)
+                    decimal itemTotal = product.Price * item.Quantity;
+                    orderTotal += itemTotal;
+
+                    validatedItems.Add((item.ProductID, item.Quantity, product.Price, itemTotal));
+                }
+
+                // Step 2: Create Order
+                var order = new Order(new OrderDTO(
+                    null, // OrderID will be auto-generated
+                    orderRequest.CustomerID,
+                    DateTime.UtcNow, // Order date
+                    orderTotal, // Calculated total (not from client!)
+                    orderRequest.OrderStatus ?? 1 // Default to status 1 (Pending)
+                ));
+
+                if (!order.Save())
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                        new { message = "Failed to create order" });
+                }
+
+                int createdOrderID = order.OrderID.Value;
+                var createdOrderItems = new List<OrderItemDTO>();
+
+                // Step 3: Create OrderItems
+                foreach (var validatedItem in validatedItems)
+                {
+                    var orderItem = new OrderItem(new OrderItemDTO(
+                        createdOrderID,
+                        validatedItem.ProductID,
+                        validatedItem.Quantity,
+                        validatedItem.Price,
+                        validatedItem.ItemTotal
+                    ));
+
+                    if (!orderItem.Save())
+                    {
+                        // Rollback: Delete order and all created items
+                        OrderItem.DeleteOrderItemsByOrderID(createdOrderID);
+                        Order.DeleteOrder(createdOrderID);
+                        return StatusCode(StatusCodes.Status500InternalServerError,
+                            new { message = "Failed to create order items. Order has been rolled back." });
+                    }
+
+                    createdOrderItems.Add(orderItem.OrderItemDTO);
+                }
+
+                // Step 4: Create Payment
+                var payment = new Payment(new PaymentDTO(
+                    null, // PaymentID will be auto-generated
+                    createdOrderID,
+                    orderTotal, // Payment amount = order total
+                    orderRequest.PaymentMethod,
+                    DateTime.UtcNow
+                ));
+
+                if (!payment.Save())
+                {
+                    // Rollback: Delete order items and order
+                    OrderItem.DeleteOrderItemsByOrderID(createdOrderID);
+                    Order.DeleteOrder(createdOrderID);
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                        new { message = "Failed to create payment. Order has been rolled back." });
+                }
+
+                // Step 5: Create Shipping
+                var shipping = new Shipping(new ShippingDTO(
+                    null, // ShippingID will be auto-generated
+                    createdOrderID,
+                    orderRequest.CarrierName,
+                    GenerateTrackingNumber(),
+                    1, // Shipping status: 1 = Pending
+                    orderRequest.EstimatedDeliveryDate ?? DateTime.UtcNow.AddDays(7),
+                    null // Actual delivery date (not set yet)
+                ));
+
+                if (!shipping.Save())
+                {
+                    // Rollback: Delete payment, order items, and order
+                    Payment.DeletePayment(payment.PaymentID);
+                    OrderItem.DeleteOrderItemsByOrderID(createdOrderID);
+                    Order.DeleteOrder(createdOrderID);
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                        new { message = "Failed to create shipping information. Order and payment have been rolled back." });
+                }
+
+                // Step 6: Update Product Stock
+                foreach (var validatedItem in validatedItems)
+                {
+                    if (!OrderItem.ReduceProductStock(validatedItem.ProductID, validatedItem.Quantity))
+                    {
+                        // Rollback everything
+                        Shipping.DeleteShipping(shipping.ShippingID);
+                        Payment.DeletePayment(payment.PaymentID);
+                        OrderItem.DeleteOrderItemsByOrderID(createdOrderID);
+                        Order.DeleteOrder(createdOrderID);
+                        return StatusCode(StatusCodes.Status500InternalServerError,
+                            new { message = "Failed to update product stock. Order has been rolled back." });
+                    }
+                }
+
+                // Success! Return complete order information
+                var response = new CompleteOrderResponseDTO
+                {
+                    Success = true,
+                    Message = $"Order created successfully with {createdOrderItems.Count} item(s)",
+                    Order = order.OrderDTO,
+                    OrderItems = createdOrderItems,
+                    Payment = payment.PaymentDTO,
+                    Shipping = shipping.ShippingDTO
+                };
+
+                return CreatedAtRoute("GetOrderById", new { id = order.OrderID }, response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    new { message = "An error occurred while creating the order", details = ex.Message });
+            }
+        }
+
+
+        /// <summary>
+        /// Generates a unique tracking number for shipping
+        /// </summary>
+        private string GenerateTrackingNumber()
+        {
+            // Generate a tracking number format: TRACK-YYYYMMDD-XXXXXX
+            var datePart = DateTime.UtcNow.ToString("yyyyMMdd");
+            var randomPart = new Random().Next(100000, 999999);
+            return $"TRACK-{datePart}-{randomPart}";
+        }
+
+        [Authorize] // Any authenticated user can create an order (legacy endpoint - consider deprecating)
+        [HttpPost(Name = "AddOrder")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<OrderDTO> AddOrder(OrderDTO newOrderDTO)
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+
+            // Non-admin users can only create orders for themselves
+            if (userRole != "Admin" && newOrderDTO.CustomerID.ToString() != userId)
+            {
+                return Forbid();
+            }
+
+            if (newOrderDTO == null || newOrderDTO.CustomerID < 0 || newOrderDTO.TotalAmount < 0)
+            {
+                return BadRequest("Invalid Order data.");
+            }
+
+            Order order = new Order(new OrderDTO
+            (
+                    newOrderDTO.OrderID,
+                    newOrderDTO.CustomerID,
+                    newOrderDTO.OrderDate,
+                    newOrderDTO.TotalAmount,
+                    newOrderDTO.Status
+            ));
+
+            if (!order.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error adding Order");
+            }
+
+            newOrderDTO.OrderID = order.OrderID;
+
+            return CreatedAtRoute("GetOrderById", new { id = newOrderDTO.OrderID }, newOrderDTO);
+        }
+
+        [Authorize(Roles = "Admin")] // Only Admin can update orders
+        [HttpPut("{id}", Name = "UpdateOrder")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<OrderDTO> UpdateOrder(int id, OrderDTO updatedOrder)
+        {
+            if (id < 1 || updatedOrder == null || updatedOrder.CustomerID < 0 || updatedOrder.TotalAmount < 0)
+            {
+                return BadRequest("Invalid Order data.");
+            }
+
+            Order order = Order.Find(id);
+
+            if (order == null)
+            {
+                return NotFound($"Order with ID {id} not found.");
+            }
+
+            order.CustomerID = updatedOrder.CustomerID;
+            order.OrderDate = updatedOrder.OrderDate;
+            order.TotalAmount = updatedOrder.TotalAmount;
+            order.Status = updatedOrder.Status;
+
+            if (!order.Save())
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error updating Order");
+            }
+
+            return Ok(order.OrderDTO);
+        }
+
+        [Authorize(Roles = "Admin")] // Only Admin can delete orders
+        [HttpDelete("{id}", Name = "DeleteOrder")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult DeleteOrder(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            if (Order.DeleteOrder(id))
+            {
+                return Ok($"Order with ID {id} has been deleted.");
+            }
+            else
+            {
+                return NotFound($"Order with ID {id} not found. No rows deleted!");
+            }
+        }
+
+        [Authorize]
+        [HttpGet("Exists/{id}", Name = "DoesOrderExist")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<bool> DoesOrderExist(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            bool exists = Order.DoesOrderExist(id);
+
+            return Ok(exists);
+        }
+    }
+}

@@ -1,0 +1,135 @@
+using System;
+using System.Data;
+using OnlineStore.Models;
+using OnlineStore.DAL;
+
+namespace OnlineStore.BLL
+{
+    public class OrderItem
+    {
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+
+        public OrderItemDTO OrderItemDTO
+        {
+            get 
+            { 
+                return new OrderItemDTO(
+                    this.OrderID,
+                    this.ProductID,
+                    this.Quantity,
+                    this.Price,
+                    this.TotalItemsPrice
+                ); 
+            }
+        }
+
+        // Composite Primary Key
+        public int OrderID { set; get; }
+        public int ProductID { set; get; }
+        
+        // Item Details
+        public int Quantity { set; get; }
+        public decimal Price { set; get; }
+        public decimal TotalItemsPrice { set; get; }
+
+        public OrderItem(OrderItemDTO OrderItemDTO, enMode cMode = enMode.AddNew)
+        {
+            this.OrderID = OrderItemDTO.OrderID;
+            this.ProductID = OrderItemDTO.ProductID;
+            this.Quantity = OrderItemDTO.Quantity;
+            this.Price = OrderItemDTO.Price;
+            this.TotalItemsPrice = OrderItemDTO.TotalItemsPrice;
+            Mode = cMode;
+        }
+
+        private bool _AddNewOrderItem()
+        {
+            return OrderItemData.AddOrderItem(OrderItemDTO);
+        }
+
+        private bool _UpdateOrderItem()
+        {
+            return OrderItemData.UpdateOrderItem(OrderItemDTO);
+        }
+
+        /// <summary>
+        /// Find order item by composite key (OrderID + ProductID)
+        /// </summary>
+        public static OrderItem Find(int OrderID, int ProductID)
+        {
+            OrderItemDTO OrderItemDTO = OrderItemData.GetOrderItemByID(OrderID, ProductID);
+
+            if (OrderItemDTO != null)
+                return new OrderItem(OrderItemDTO, enMode.Update);
+            else
+                return null;
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewOrderItem())
+                    {
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+                    return _UpdateOrderItem();
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Delete order item by composite key
+        /// </summary>
+        public static bool DeleteOrderItem(int OrderID, int ProductID)
+            => OrderItemData.DeleteOrderItem(OrderID, ProductID);
+
+        public static bool DeleteOrderItemsByOrderID(int OrderID)
+            => OrderItemData.DeleteOrderItemsByOrderID(OrderID);
+
+        /// <summary>
+        /// Check if order item exists by composite key
+        /// </summary>
+        public static bool DoesOrderItemExist(int OrderID, int ProductID)
+            => OrderItemData.DoesOrderItemExist(OrderID, ProductID);
+
+        public static DataTable GetAllOrderItems()
+            => OrderItemData.GetAllOrderItems();
+
+        public static DataTable GetOrderItemsByOrderID(int OrderID)
+            => OrderItemData.GetOrderItemsByOrderID(OrderID);
+
+        /// <summary>
+        /// Updates product stock - reduces quantity when order is placed
+        /// </summary>
+        /// <param name="productID">Product to update</param>
+        /// <param name="quantity">Quantity to reduce (positive number)</param>
+        /// <returns>True if successful</returns>
+        public static bool ReduceProductStock(int productID, int quantity)
+        {
+            // Pass negative value to reduce stock
+            return OrderItemData.UpdateProductStock(productID, -quantity);
+        }
+
+        /// <summary>
+        /// Restores product stock - increases quantity when order is cancelled
+        /// </summary>
+        /// <param name="productID">Product to update</param>
+        /// <param name="quantity">Quantity to restore (positive number)</param>
+        /// <returns>True if successful</returns>
+        public static bool RestoreProductStock(int productID, int quantity)
+        {
+            // Pass positive value to increase stock
+            return OrderItemData.UpdateProductStock(productID, quantity);
+        }
+    }
+}

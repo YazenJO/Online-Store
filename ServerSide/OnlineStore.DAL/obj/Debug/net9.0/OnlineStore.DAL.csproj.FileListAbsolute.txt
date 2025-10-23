@@ -1,0 +1,48 @@
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.csproj.AssemblyReference.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineSt.17896585.Up2Date
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\refint\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\OnlineStore.DAL\obj\Debug\net9.0\ref\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.deps.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.csproj.AssemblyReference.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.AssemblyInfoInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.AssemblyInfo.cs
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.csproj.CoreCompileInputs.cache
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.sourcelink.json
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineSt.17896585.Up2Date
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\refint\OnlineStore.DAL.dll
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Programming-Advices\Introduction to RESTful API\Online Store\OnlineStore.DAL\obj\Debug\net9.0\ref\OnlineStore.DAL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.deps.json
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.Models.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\bin\Debug\net9.0\OnlineStore.Models.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.csproj.AssemblyReference.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.AssemblyInfoInputs.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.AssemblyInfo.cs
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.csproj.CoreCompileInputs.cache
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.sourcelink.json
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineSt.17896585.Up2Date
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\refint\OnlineStore.DAL.dll
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\OnlineStore.DAL.pdb
+D:\MY World\Online-Store\ServerSide\OnlineStore.DAL\obj\Debug\net9.0\ref\OnlineStore.DAL.dll

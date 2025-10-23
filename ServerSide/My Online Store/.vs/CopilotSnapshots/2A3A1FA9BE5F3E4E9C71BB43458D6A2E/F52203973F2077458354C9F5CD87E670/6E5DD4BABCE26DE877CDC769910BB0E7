@@ -1,0 +1,84 @@
+﻿using System;
+using System.Data;
+using OnlineStore.Models;
+using OnlineStore.DAL;
+
+namespace OnlineStore.BLL
+{
+    public class Product
+    {
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+
+        public ProductDTO ProductDTO
+        {
+            get { return new ProductDTO(ProductID = this.ProductID, ProductName = this.ProductName, Description = this.Description, Price = this.Price, QuantityInStock = this.QuantityInStock, CategoryID = this.CategoryID); }
+        }
+
+        public int? ProductID { set; get; }
+        public string ProductName { set; get; }
+        public string Description { set; get; }
+        public decimal Price { set; get; }
+        public int QuantityInStock { set; get; }
+        public int CategoryID { set; get; }
+
+        public Product(ProductDTO ProductDTO, enMode cMode = enMode.AddNew)
+        {
+            this.ProductID = ProductDTO.ProductID;
+            this.ProductName = ProductDTO.ProductName;
+            this.Description = ProductDTO.Description;
+            this.Price = ProductDTO.Price;
+            this.QuantityInStock = ProductDTO.QuantityInStock;
+            this.CategoryID = ProductDTO.CategoryID;
+            Mode = cMode;
+        }
+
+        private bool _AddNewProduct()
+        {
+            this.ProductID = (int?)ProductData.AddProduct(ProductDTO);
+            return (this.ProductID != -1);
+        }
+
+        private bool _UpdateProduct()
+        {
+            return ProductData.UpdateProduct(ProductDTO);
+        }
+
+        public static Product Find(int? ProductID)
+        {
+            ProductDTO ProductDTO = ProductData.GetProductByID(ProductID);
+
+            if (ProductDTO != null)
+                return new Product(ProductDTO, enMode.Update);
+            else
+                return null;
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewProduct())
+                    {
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+                    return _UpdateProduct();
+            }
+            return false;
+        }
+        public static bool DeleteProduct(int? ProductID)
+            => ProductData.DeleteProduct(ProductID);
+        public static bool DoesProductExist(int? ProductID)
+            => ProductData.DoesProductExist(ProductID);
+        public static DataTable GetAllProductCatalog()
+            => ProductData.GetAllProductCatalog();
+    }
+}

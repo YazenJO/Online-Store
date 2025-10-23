@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../OnlineStore.BLL/OnlineStore.BLL.csproj" Id="805f4d9f-d207-4bfa-bab4-767ef137a81d" />
+  <Project Path="../OnlineStore.DAL/OnlineStore.DAL.csproj" Id="3c85a813-b824-483a-a9e7-615325c34df0" />
+  <Project Path="../OnlineStore.Models/OnlineStore.Models.csproj" Id="11896462-1d11-4a95-bcd8-e6e89a29fb9a" />
+  <Project Path="My Online Store.csproj" />
+</Solution>

@@ -1,0 +1,76 @@
+﻿using OnlineStore.DAL;
+using OnlineStore.Models;
+using System.Collections.Generic;
+using System.Data;
+
+namespace OnlineStore.BLL
+{
+    public class clsCategory
+    {
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+
+        public CategoryDTO CategoryDTO
+        {
+            get { return new CategoryDTO(this.CategoryID, this.CategoryName); }
+        }
+
+        public int? CategoryID { set; get; }
+        public string CategoryName { set; get; }
+
+        public clsCategory(CategoryDTO CategoryDTO, enMode cMode = enMode.AddNew)
+        {
+            this.CategoryID = CategoryDTO.CategoryID;
+            this.CategoryName = CategoryDTO.CategoryName;
+            Mode = cMode;
+        }
+
+        private bool _AddNewCategory()
+        {
+            this.CategoryID = (int?)clsCategoryData.AddNewCategory(CategoryDTO);
+            return (this.CategoryID != -1);
+        }
+
+        private bool _UpdateCategory()
+        {
+            return clsCategoryData.UpdateCategory(CategoryDTO);
+        }
+
+        public static clsCategory Find(int? CategoryID)
+        {
+            CategoryDTO CategoryDTO = clsCategoryData.GetCategoryByID(CategoryID);
+
+            if (CategoryDTO != null)
+                return new clsCategory(CategoryDTO, enMode.Update);
+            else
+                return null;
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewCategory())
+                    {
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+                    return _UpdateCategory();
+            }
+            return false;
+        }
+        public static bool DeleteCategory(int? CategoryID)
+            => clsCategoryData.DeleteCategory(CategoryID);
+        public static bool DoesCategoryExist(int? CategoryID)
+            => clsCategoryData.DoesCategoryExist(CategoryID);
+        public static DataTable GetAllProductCategory()
+            => clsCategoryData.GetAllProductCategory();
+    }
+}
