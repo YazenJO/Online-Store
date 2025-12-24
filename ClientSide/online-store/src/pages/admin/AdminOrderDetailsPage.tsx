@@ -97,13 +97,32 @@ const AdminOrderDetailsPage: React.FC = () => {
     if (!order) return;
     try {
       setUpdating(true);
-      await adminService.updateOrderStatus(order.orderID, newStatus);
+      console.log('Updating order status...', { orderId: order.orderID, newStatus });
+      
+      const updatedOrder = await adminService.updateOrderStatus(order.orderID, newStatus);
+      
+      // Update the local state with the new status
       setOrder({ ...order, status: newStatus });
       setEditingStatus(false);
+      
+      console.log('✅ Order updated successfully in UI');
       alert('Order status updated successfully!');
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error updating order status:', error);
-      alert('Failed to update order status');
+      
+      // Provide more specific error message
+      let errorMessage = 'Failed to update order status. ';
+      if (error.response) {
+        errorMessage += `Server responded with: ${error.response.status} - ${JSON.stringify(error.response.data)}`;
+      } else if (error.request) {
+        errorMessage += 'No response from server. Please check if the backend is running.';
+      } else if (error.message) {
+        errorMessage += error.message;
+      } else {
+        errorMessage += 'Unknown error occurred. Please check the console for details.';
+      }
+      
+      alert(errorMessage);
     } finally {
       setUpdating(false);
     }

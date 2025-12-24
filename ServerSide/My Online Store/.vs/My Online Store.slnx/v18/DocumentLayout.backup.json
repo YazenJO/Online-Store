@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\implementation_checklist.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\implementation_checklist.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\implementation_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\implementation_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\backend_completion_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\backend_completion_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\frontend_developer_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_developer_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\frontend_documentation_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_documentation_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\frontend_implementation_checklist.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_implementation_checklist.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\dtos\\completeorderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:dtos\\completeorderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{805F4D9F-D207-4BFA-BAB4-767EF137A81D}|..\\OnlineStore.BLL\\OnlineStore.BLL.csproj|d:\\my world\\online-store\\serverside\\onlinestore.bll\\onlinestore.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -28,10 +76,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\dtos\\createcompleteorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:dtos\\createcompleteorderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\my online store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,14 +102,6 @@
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\dtos\\completeorderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:dtos\\completeorderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\api_endpoints_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\api_endpoints_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -86,20 +122,8 @@
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_api_quick_reference.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\frontend_implementation_checklist.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_implementation_checklist.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\composite_key_implementation_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\composite_key_implementation_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\frontend_documentation_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_documentation_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\frontend_developer_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\frontend_developer_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\productcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,24 +138,12 @@
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\password_hashing_quickref.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\password_hashing_quickref.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\project_completion_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:docs\\project_completion_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA6750D0-00A5-7CD6-889A-63B1FF159C74}|My Online Store.csproj|d:\\my world\\online-store\\serverside\\my online store\\docs\\refactoring_visual_guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -264,472 +276,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IMPLEMENTATION_CHECKLIST.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\IMPLEMENTATION_CHECKLIST.md",
+              "RelativeDocumentMoniker": "Docs\\IMPLEMENTATION_CHECKLIST.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\IMPLEMENTATION_CHECKLIST.md",
+              "RelativeToolTip": "Docs\\IMPLEMENTATION_CHECKLIST.md",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-08T10:37:13.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMPLEMENTATION_SUMMARY.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\IMPLEMENTATION_SUMMARY.md",
+              "RelativeDocumentMoniker": "Docs\\IMPLEMENTATION_SUMMARY.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\IMPLEMENTATION_SUMMARY.md",
+              "RelativeToolTip": "Docs\\IMPLEMENTATION_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-08T10:37:12.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BACKEND_COMPLETION_GUIDE.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\BACKEND_COMPLETION_GUIDE.md",
+              "RelativeDocumentMoniker": "Docs\\BACKEND_COMPLETION_GUIDE.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\BACKEND_COMPLETION_GUIDE.md",
+              "RelativeToolTip": "Docs\\BACKEND_COMPLETION_GUIDE.md",
+              "ViewState": "AgIAAGACAAAAAAAAAAAhwLICAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-08T10:35:28.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:05:38.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "README.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAH0CAAAAAAAAAAAowIQCAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-10-23T11:08:03.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OnlineStore.BLL.csproj",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeDocumentMoniker": "..\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeToolTip": "..\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-23T10:40:42.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\OnlineStore.BLL\\Customer.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\Customer.cs",
-              "RelativeToolTip": "..\\OnlineStore.BLL\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T10:40:40.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\OnlineStore.BLL\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\..\\OnlineStore.BLL\\Customer.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\OnlineStore.BLL\\Customer.cs",
-              "RelativeToolTip": "..\\..\\OnlineStore.BLL\\Customer.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T10:35:23.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:08:38.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "CategoryData.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T21:12:36.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T21:12:31.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "OnlineStore.BLL.csproj",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-22T21:12:29.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "OnlineStore.BLL.csproj",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-22T21:11:25.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAANMBAAAAAAAAAAAwwAECAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:05:38.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAIAywHcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:04:42.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "OrderItemData.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAqwCIBAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:04:06.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateCompleteOrderRequestDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CreateCompleteOrderRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\CreateCompleteOrderRequestDTO.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CreateCompleteOrderRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\CreateCompleteOrderRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:42:42.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderItemRequestDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\OrderItemRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\OrderItemRequestDTO.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\OrderItemRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\OrderItemRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:42:28.185Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "OrderDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:39:54.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "My Online Store.csproj",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\My Online Store.csproj",
-              "RelativeDocumentMoniker": "My Online Store.csproj",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\My Online Store.csproj",
-              "RelativeToolTip": "My Online Store.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-21T20:43:02.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAqwHAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T14:15:23.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ImageData.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T18:02:54.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "OnlineStoreDALLSettings.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T18:02:55.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "CustomerData.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:57:39.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T14:22:24.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:39:51.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PaymentsController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\PaymentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\PaymentsController.cs",
-              "RelativeToolTip": "Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T14:22:48.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:58:55.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductCategoryController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductCategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductCategoryController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductCategoryController.cs",
-              "RelativeToolTip": "Controllers\\ProductCategoryController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:52:27.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginRequestDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\LoginRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginRequestDTO.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\LoginRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\LoginRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:57:06.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:57:19.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthResponseDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\AuthResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\AuthResponseDTO.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\AuthResponseDTO.cs",
-              "RelativeToolTip": "DTOs\\AuthResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:56:57.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "ShippingDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T17:56:42.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "OnlineStore.Models.csproj",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-22T17:50:35.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "OnlineStore.BLL.csproj",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-22T17:55:20.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CompleteOrderResponseDTO.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CompleteOrderResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\CompleteOrderResponseDTO.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CompleteOrderResponseDTO.cs",
-              "RelativeToolTip": "DTOs\\CompleteOrderResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T20:04:59.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "API_ENDPOINTS_REFERENCE.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_ENDPOINTS_REFERENCE.md",
-              "RelativeDocumentMoniker": "Docs\\API_ENDPOINTS_REFERENCE.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_ENDPOINTS_REFERENCE.md",
-              "RelativeToolTip": "Docs\\API_ENDPOINTS_REFERENCE.md",
-              "ViewState": "AgIAAAkGAAAAAAAAAAAiwB8GAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T13:58:27.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "README_FRONTEND.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\README_FRONTEND.md",
-              "RelativeDocumentMoniker": "Docs\\README_FRONTEND.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\README_FRONTEND.md",
-              "RelativeToolTip": "Docs\\README_FRONTEND.md",
-              "ViewState": "AgIAACcCAAAAAAAAAAAiwDcCAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T15:38:02.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "API_QUICK_REFERENCE.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_QUICK_REFERENCE.md",
-              "RelativeDocumentMoniker": "Docs\\API_QUICK_REFERENCE.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_QUICK_REFERENCE.md",
-              "RelativeToolTip": "Docs\\API_QUICK_REFERENCE.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T13:59:00.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FRONTEND_CODE_TEMPLATES.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_CODE_TEMPLATES.md",
-              "RelativeDocumentMoniker": "Docs\\FRONTEND_CODE_TEMPLATES.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_CODE_TEMPLATES.md",
-              "RelativeToolTip": "Docs\\FRONTEND_CODE_TEMPLATES.md",
-              "ViewState": "AgIAAOMDAAAAAAAAAAAiwAUEAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T15:36:24.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FRONTEND_API_QUICK_REFERENCE.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_API_QUICK_REFERENCE.md",
-              "RelativeDocumentMoniker": "Docs\\FRONTEND_API_QUICK_REFERENCE.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_API_QUICK_REFERENCE.md",
-              "RelativeToolTip": "Docs\\FRONTEND_API_QUICK_REFERENCE.md",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAiwIcBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T15:33:42.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "FRONTEND_IMPLEMENTATION_CHECKLIST.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_IMPLEMENTATION_CHECKLIST.md",
               "RelativeDocumentMoniker": "Docs\\FRONTEND_IMPLEMENTATION_CHECKLIST.md",
               "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_IMPLEMENTATION_CHECKLIST.md",
               "RelativeToolTip": "Docs\\FRONTEND_IMPLEMENTATION_CHECKLIST.md",
-              "ViewState": "AgIAAJABAAAAAAAAAAAiwLIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T15:34:44.12Z"
+              "WhenOpened": "2025-10-22T15:34:44.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
-              "RelativeDocumentMoniker": "Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
-              "RelativeToolTip": "Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FRONTEND_DOCUMENTATION_INDEX.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
+              "RelativeDocumentMoniker": "Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
+              "RelativeToolTip": "Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
+              "ViewState": "AgIAAE4BAAAAAAAAAAASwKsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-21T20:07:55.406Z"
+              "WhenOpened": "2025-10-22T15:39:10.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 3,
               "Title": "FRONTEND_DEVELOPER_GUIDE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_DEVELOPER_GUIDE.md",
               "RelativeDocumentMoniker": "Docs\\FRONTEND_DEVELOPER_GUIDE.md",
@@ -737,59 +374,12 @@
               "RelativeToolTip": "Docs\\FRONTEND_DEVELOPER_GUIDE.md",
               "ViewState": "AgIAAEQHAAAAAAAAAAAiwGYHAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T15:33:05.795Z"
+              "WhenOpened": "2025-10-22T15:33:05.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FRONTEND_DOCUMENTATION_INDEX.md",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
-              "RelativeDocumentMoniker": "Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
-              "RelativeToolTip": "Docs\\FRONTEND_DOCUMENTATION_INDEX.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-22T15:39:10.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProductCatalogController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ProductCatalogController.cs",
-              "RelativeDocumentMoniker": "Docs\\ProductCatalogController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ProductCatalogController.cs",
-              "RelativeToolTip": "Docs\\ProductCatalogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T14:22:53.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
-              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
-              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T14:22:27.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "Services\\JwtService.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Services\\JwtService.cs",
-              "RelativeToolTip": "Services\\JwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T13:09:18.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 10,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Services\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Services\\PasswordHasher.cs",
@@ -801,7 +391,484 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompleteOrderResponseDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CompleteOrderResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CompleteOrderResponseDTO.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CompleteOrderResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\CompleteOrderResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:04:59.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthResponseDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\AuthResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthResponseDTO.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\AuthResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\AuthResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:56:57.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "OnlineStore.BLL.csproj",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T21:11:25.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OnlineStore.BLL.csproj",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeDocumentMoniker": "..\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeToolTip": "..\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-23T10:40:42.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:09:18.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAAHUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:50:16.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "OnlineStore.BLL.csproj",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T21:12:29.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.BLL\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:12:31.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CategoryData.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.DAL\\CategoryData.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:12:36.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\Online Store\\OnlineStore.Models\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:08:38.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\OnlineStore.BLL\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\OnlineStore.BLL\\Customer.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\OnlineStore.BLL\\Customer.cs",
+              "RelativeToolTip": "..\\..\\OnlineStore.BLL\\Customer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:35:23.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\OnlineStore.BLL\\Customer.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\OnlineStore.BLL\\Customer.cs",
+              "RelativeToolTip": "..\\OnlineStore.BLL\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:40:40.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OrderItem.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAIAywHcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:04:42.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "OrderItemData.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OrderItemData.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAqwCIBAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:04:06.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateCompleteOrderRequestDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CreateCompleteOrderRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateCompleteOrderRequestDTO.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\CreateCompleteOrderRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\CreateCompleteOrderRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:42:42.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItemRequestDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\OrderItemRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderItemRequestDTO.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\OrderItemRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\OrderItemRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T20:42:28.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:39:54.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "My Online Store.csproj",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\My Online Store.csproj",
+              "RelativeDocumentMoniker": "My Online Store.csproj",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\My Online Store.csproj",
+              "RelativeToolTip": "My Online Store.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T20:43:02.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAqwHAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:15:23.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ImageData.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\ImageData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:02:54.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OnlineStoreDALLSettings.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\OnlineStoreDALLSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:02:55.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CustomerData.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.DAL\\CustomerData.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:57:39.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:22:24.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Payment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:39:51.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:22:48.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:58:55.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductCategoryController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductCategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductCategoryController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\ProductCategoryController.cs",
+              "RelativeToolTip": "Controllers\\ProductCategoryController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:52:27.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequestDTO.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\DTOs\\LoginRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\LoginRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:57:06.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:57:19.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ShippingDTO.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\ShippingDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T17:56:42.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OnlineStore.Models.csproj",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OnlineStore.Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T17:50:35.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "OnlineStore.BLL.csproj",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T17:55:20.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "API_ENDPOINTS_REFERENCE.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_ENDPOINTS_REFERENCE.md",
+              "RelativeDocumentMoniker": "Docs\\API_ENDPOINTS_REFERENCE.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_ENDPOINTS_REFERENCE.md",
+              "RelativeToolTip": "Docs\\API_ENDPOINTS_REFERENCE.md",
+              "ViewState": "AgIAAAkGAAAAAAAAAAAiwB8GAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-22T13:58:27.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "README_FRONTEND.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\README_FRONTEND.md",
+              "RelativeDocumentMoniker": "Docs\\README_FRONTEND.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\README_FRONTEND.md",
+              "RelativeToolTip": "Docs\\README_FRONTEND.md",
+              "ViewState": "AgIAACcCAAAAAAAAAAAiwDcCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-22T15:38:02.04Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "API_QUICK_REFERENCE.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_QUICK_REFERENCE.md",
+              "RelativeDocumentMoniker": "Docs\\API_QUICK_REFERENCE.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\API_QUICK_REFERENCE.md",
+              "RelativeToolTip": "Docs\\API_QUICK_REFERENCE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-22T13:59:00.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FRONTEND_CODE_TEMPLATES.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_CODE_TEMPLATES.md",
+              "RelativeDocumentMoniker": "Docs\\FRONTEND_CODE_TEMPLATES.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_CODE_TEMPLATES.md",
+              "RelativeToolTip": "Docs\\FRONTEND_CODE_TEMPLATES.md",
+              "ViewState": "AgIAAOMDAAAAAAAAAAAiwAUEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-22T15:36:24.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FRONTEND_API_QUICK_REFERENCE.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_API_QUICK_REFERENCE.md",
+              "RelativeDocumentMoniker": "Docs\\FRONTEND_API_QUICK_REFERENCE.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\FRONTEND_API_QUICK_REFERENCE.md",
+              "RelativeToolTip": "Docs\\FRONTEND_API_QUICK_REFERENCE.md",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAiwIcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-22T15:33:42.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
+              "RelativeDocumentMoniker": "Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
+              "RelativeToolTip": "Docs\\COMPOSITE_KEY_IMPLEMENTATION_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-21T20:07:55.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductCatalogController.cs",
+              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ProductCatalogController.cs",
+              "RelativeDocumentMoniker": "Docs\\ProductCatalogController.cs",
+              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ProductCatalogController.cs",
+              "RelativeToolTip": "Docs\\ProductCatalogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:22:53.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
+              "ToolTip": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
+              "RelativeToolTip": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:22:27.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -813,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "CLEANUP_STATUS.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\CLEANUP_STATUS.md",
               "RelativeDocumentMoniker": "Docs\\CLEANUP_STATUS.md",
@@ -825,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "PASSWORD_HASHING_IMPLEMENTATION.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\PASSWORD_HASHING_IMPLEMENTATION.md",
               "RelativeDocumentMoniker": "Docs\\PASSWORD_HASHING_IMPLEMENTATION.md",
@@ -837,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "CLEANUP_SCRIPT_GUIDE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\CLEANUP_SCRIPT_GUIDE.md",
               "RelativeDocumentMoniker": "Docs\\CLEANUP_SCRIPT_GUIDE.md",
@@ -849,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "SOLUTION_CLEANUP_COMPLETE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\SOLUTION_CLEANUP_COMPLETE.md",
               "RelativeDocumentMoniker": "Docs\\SOLUTION_CLEANUP_COMPLETE.md",
@@ -861,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "SENIOR_DEV_CLEANUP_GUIDE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\SENIOR_DEV_CLEANUP_GUIDE.md",
               "RelativeDocumentMoniker": "Docs\\SENIOR_DEV_CLEANUP_GUIDE.md",
@@ -873,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "PASSWORD_HASHING_QUICKREF.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\PASSWORD_HASHING_QUICKREF.md",
               "RelativeDocumentMoniker": "Docs\\PASSWORD_HASHING_QUICKREF.md",
@@ -885,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "PROJECT_COMPLETION_SUMMARY.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\PROJECT_COMPLETION_SUMMARY.md",
               "RelativeDocumentMoniker": "Docs\\PROJECT_COMPLETION_SUMMARY.md",
@@ -897,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "ORDER_STATUS_QUICKREF.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ORDER_STATUS_QUICKREF.md",
               "RelativeDocumentMoniker": "Docs\\ORDER_STATUS_QUICKREF.md",
@@ -909,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "ORDER_STATUS_VALIDATION_SUMMARY.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ORDER_STATUS_VALIDATION_SUMMARY.md",
               "RelativeDocumentMoniker": "Docs\\ORDER_STATUS_VALIDATION_SUMMARY.md",
@@ -921,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "CLEANUP_AND_DOCUMENTATION_SUMMARY.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\CLEANUP_AND_DOCUMENTATION_SUMMARY.md",
               "RelativeDocumentMoniker": "Docs\\CLEANUP_AND_DOCUMENTATION_SUMMARY.md",
@@ -933,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "ORDER_STATUS_DOCUMENTATION.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ORDER_STATUS_DOCUMENTATION.md",
               "RelativeDocumentMoniker": "Docs\\ORDER_STATUS_DOCUMENTATION.md",
@@ -945,19 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAAHUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:50:16.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "PASSWORD_HASHING_FLOW_GUIDE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\PASSWORD_HASHING_FLOW_GUIDE.md",
               "RelativeDocumentMoniker": "Docs\\PASSWORD_HASHING_FLOW_GUIDE.md",
@@ -969,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Order.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.BLL\\Order.cs",
@@ -981,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "REFACTORING_VISUAL_GUIDE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\REFACTORING_VISUAL_GUIDE.md",
               "RelativeDocumentMoniker": "Docs\\REFACTORING_VISUAL_GUIDE.md",
@@ -993,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Database_StoredProcedures.sql",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\Database_StoredProcedures.sql",
               "RelativeDocumentMoniker": "Docs\\Database_StoredProcedures.sql",
@@ -1004,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "REFACTORING_DIVIDE_AND_CONQUER.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\REFACTORING_DIVIDE_AND_CONQUER.md",
               "RelativeDocumentMoniker": "Docs\\REFACTORING_DIVIDE_AND_CONQUER.md",
@@ -1016,7 +1071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "COMPLETE_ORDER_ITEMS_IMPLEMENTATION.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\COMPLETE_ORDER_ITEMS_IMPLEMENTATION.md",
               "RelativeDocumentMoniker": "Docs\\COMPLETE_ORDER_ITEMS_IMPLEMENTATION.md",
@@ -1028,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "ORDER_PROCESS_COMPLETE_GUIDE.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ORDER_PROCESS_COMPLETE_GUIDE.md",
               "RelativeDocumentMoniker": "Docs\\ORDER_PROCESS_COMPLETE_GUIDE.md",
@@ -1040,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "ORDER_PROCESS_QUICKREF.md",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ORDER_PROCESS_QUICKREF.md",
               "RelativeDocumentMoniker": "Docs\\ORDER_PROCESS_QUICKREF.md",
@@ -1052,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "ORDERITEMS_DATABASE_SETUP.sql",
               "DocumentMoniker": "D:\\MY World\\Online-Store\\ServerSide\\My Online Store\\Docs\\ORDERITEMS_DATABASE_SETUP.sql",
               "RelativeDocumentMoniker": "Docs\\ORDERITEMS_DATABASE_SETUP.sql",
@@ -1063,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "OrderItemDTO.cs",
               "DocumentMoniker": "D:\\MY World\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderItemDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Programming-Advices\\Introduction to RESTful API\\OnlineStore.Models\\OrderItemDTO.cs",
